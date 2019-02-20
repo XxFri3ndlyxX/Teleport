@@ -28,10 +28,6 @@ AddEventHandler('tp:hasEnteredMarker', function(zone)
     	CurrentAction = zone
     end
 	
-	if zone == 'LSDEnter' then
-    	CurrentAction = zone
-    end
-	
 	if zone == 'WeedExit' then
     	CurrentAction = zone
     end
@@ -49,14 +45,6 @@ AddEventHandler('tp:hasEnteredMarker', function(zone)
     end
 	
 	if zone == 'CokeExit' then
-    	CurrentAction = zone
-    end
-	
-	if zone == 'LitterEnter' then
-    	CurrentAction = zone
-    end
-	
-	if zone == 'LitterExit' then
     	CurrentAction = zone
     end
 	
