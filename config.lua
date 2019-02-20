@@ -106,23 +106,6 @@ Config.zones = {
 		
 	},
 	
-	LSDEnter = {
-		x = -121.558,
-		y = 6204.573,
-		z = 32.381,
-		w = 2.0,
-		h = 1.0,
-		visible = false,
-		t = 29,
-		color = {
-			r = 0,
-			g = 102,
-			b = 0
-		}
-		
-	},
-	
-	
 	MoneyWashEnter = {
 		x = 1639.516,
 		y = 4879.4,
@@ -214,127 +197,6 @@ Config.zones = {
 			b = 0
 		}
 	},
-	
-	--[[ForgeryEnter = {
-		x = 1395.448,
-		y = 1141.888,
-		z = 114.64,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	},
-	
-	ForgeryExit = {
-		x = 1173.683,
-		y = -3196.595,
-		z = -39.008,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	}]]
-	
-		LitterEnter = {
-			x = 1395.448,
-			y = 1141.888,
-			z = 114.64,
-			w = 2.0,
-			h = 1.0,		
-			visible = false,
-			t = 1,
-			color = {
-				r = 102,
-				g = 0,
-				b = 0
-			}
-		},
-	
-	LitterExit = {
-		x = 1027.689,
-		y = -3101.157,
-		z = -39.0,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	},
-	
-	--[[LitterEnter = {
-		x = 1395.448,
-		y = 1141.888,
-		z = 114.64,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	},
-	
-	LitterExit = {
-		x = 1073.077,
-		y = -3102.477,
-		z = -39.0,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	}]]
-	
-	--[[LitterEnter = {
-		x = 1395.448,
-		y = 1141.888,
-		z = 114.64,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	},
-	
-	LitterExit = {
-		x = 1105.009,
-		y = -3099.745,
-		z = -39.0,
-		w = 2.0,
-		h = 1.0,		
-		visible = false,
-		t = 1,
-		color = {
-			r = 102,
-			g = 0,
-			b = 0
-		}
-	}]]
-
 }
 
 -- Landing point, keep the same name as markers
@@ -350,12 +212,6 @@ Config.point = {
 		x = 2220.113,
 		y = 5603.523,
 		z = 54.706
-	},
-	
-	LSDEnter = {
-		x = -169.834,
-		y = 6137.447,
-		z = 36.756
 	},
 
 	MethEnter = {
@@ -392,55 +248,7 @@ Config.point = {
 		x = 1639.008,
 		y = 4870.545,
 		z = 42.03
-	},
-	
-	--[[ForgeryEnter = {
-		x = 1173.683,
-		y = -3196.595,
-		z = -39.008
-	},
-	
-	ForgeryExit = {
-		x = 1395.249,
-		y = 1152.926,
-		z = 114.37
-	}]]
-	
-	LitterEnter = {
-		x = 992.371,
-		y = -3097.855,
-		z = -38.996
-	},
-	
-	LitterExit = {
-		x = 1395.249,
-		y = 1152.926,
-		z = 114.37
-	},
-	
-	--[[LitterEnter = {
-		x = 1048.101,
-		y = -3096.963,
-		z = -39.0
-	},
-	
-	LitterExit = {
-		x = 1395.249,
-		y = 1152.926,
-		z = 114.37
-	}]]
-	
-	--[[LitterEnter = {
-		x = 1087.445,
-		y = -3099.447,
-		z = -39.0
-	},
-	
-	LitterExit = {
-		x = 1395.249,
-		y = 1152.926,
-		z = 114.37
-	}]]
+	}
 }
 
 
@@ -453,8 +261,5 @@ Config.auto = {
 	'CokeEnter',
 	'CokeExit',
 	'MethEnter',
-	'MethExit',
-	'LitterEnter',
-	'LitterExit',
-	'LSDEnter'
+	'MethExit'
 }
