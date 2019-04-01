@@ -1,6 +1,5 @@
 --[[ 
-
---------------------------------------TEMPLATE
+----------TEMPLATE
 
 	zoneXFromOutToIn = {
 		x = obviously X,
@@ -29,42 +28,7 @@ type more data after it:
 		visible = false
 	},
 
---------------------------------------TYPES OF MARKER
-
-Upside Down Cone = 0,
-Vertical Cylinder = 1,
-Thick Chevron Up = 2,
-Thin Chevron Up = 3,
-Checkered Flag Rect = 4,
-Checkered Flag Circle = 5,
-Verticle Circle = 6,
-Plane Model = 7,
-Lost MC Dark = 8,
-Lost MC Light = 9,
-Number 0 = 10,
-Number 1 = 11,
-Number 2 = 12,
-Number 3 = 13,
-Number 4 = 14,
-Number 5 = 15,
-Number 6 = 16,
-Number 7 = 17,
-Number 8 = 18,
-Number 9 = 19,
-Chevron Up x 1 = 20,
-Chevron Up x 2 = 21,
-Chevron Up x 3 = 22,
-Horizontal Circle Fat = 23,
-Replay Icon = 24,
-Horizontal Circle Skinny = 25,
-Horizontal Circle Skinny Arrow = 26,
-Horizontal Split Arrow Circle = 27,
-Debug Sphere = 28,
-Dollar Sign = 29,
-Horizontal Bars = 30,
-Wolf Head = 31
-
-]]
+-- To get a list of available marker go to https://docs.fivem.net/game-references/markers/
 
 Config = {}
 
@@ -74,14 +38,14 @@ Config.actionKey = 26
 -- markers AKA Teleporters
 Config.zones = {
 	
-	WeedEnter = {
+	WeedEnter = {           --This is the entrance where you go to enter the weed warehouse
 		x = 2221.858,
 		y = 5614.81,
 		z = 54.902,
 		w = 2.0,
 		h = 1.0,
-		visible = false,
-		t = 29,
+		visible = false, -- Set this to true to make the marker visible. False to disable it.
+		t = 29,          -- This is the marker. You can change it https://docs.fivem.net/game-references/markers
 		color = {
 			r = 0,
 			g = 102,
@@ -90,7 +54,7 @@ Config.zones = {
 		
 	},
 	
-	WeedExit = {
+	WeedExit = {          --This is the exit where you go to exit the weed warehouse
 		x = 1038.863,
 		y = -3197.662,
 		z = -38.17,
@@ -202,13 +166,13 @@ Config.zones = {
 -- Landing point, keep the same name as markers
 Config.point = {
 
-	WeedEnter = {
+	WeedEnter = {           --This is where you land when you use the entrance teleport.
 		x = 1066.009,
 		y = -3183.386,
 		z = -39.164
 	},
 	
-	WeedExit = {
+	WeedExit = {             --This is where you land when you use the exit teleport.
 		x = 2220.113,
 		y = 5603.523,
 		z = 54.706
