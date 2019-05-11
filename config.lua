@@ -27,7 +27,7 @@ type more data after it:
 		h = obviously HEIGHT,		
 		visible = false
 	},
-
+]]
 -- To get a list of available marker go to https://docs.fivem.net/game-references/markers/
 
 Config = {}
